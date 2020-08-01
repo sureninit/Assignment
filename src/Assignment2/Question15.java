@@ -10,11 +10,15 @@ public class Question15 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter Number:");
 		int number = input.nextInt();
-		char c1=(char)number;
-		System.out.println("ASCII is:"+c1);
+		if(number>=0 && number<=128) {
+			char c1=(char)number;
+			System.out.println("ASCII is:"+c1);
+		}
+		
+		
 	
 
-		
+		input.close();
 
 	}
 

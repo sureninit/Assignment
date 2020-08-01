@@ -14,8 +14,9 @@ public class Question12 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter rollNumber:");
 		rollNumber = input.nextInt();
+		input.nextLine();
 		System.out.println("Enter name:");
-		name = input.next();
+		name = input.nextLine();
 		System.out.println("Enter nationality:");
 		nationality = input.next();
 		System.out.println("===================");
