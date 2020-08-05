@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Question18 {
-
+	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int num1, num2, num3;
